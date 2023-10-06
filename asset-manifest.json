@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/pixel8pro/static/css/main.bffb3934.css",
+    "main.js": "/pixel8pro/static/js/main.fb350687.js",
+    "static/media/phonepopup.mp4": "/pixel8pro/static/media/phonepopup.7b7b5cbe54e0005f0a7a.mp4",
+    "static/media/shot1.webp": "/pixel8pro/static/media/shot1.22e9ccaf5dba8badb379.webp",
+    "static/media/charge.webp": "/pixel8pro/static/media/charge.215697c17c86c6c732ef.webp",
+    "static/media/front.webp": "/pixel8pro/static/media/front.9a8d4576ae2b8c06ed44.webp",
+    "static/media/pic1.webp": "/pixel8pro/static/media/pic1.be53f1175b70a0e261de.webp",
+    "static/media/nightshot1.webp": "/pixel8pro/static/media/nightshot1.7723e9448282f391e8e0.webp",
+    "static/media/nightshot2.webp": "/pixel8pro/static/media/nightshot2.3f24e94ad75cd49015ed.webp",
+    "static/media/chip.webp": "/pixel8pro/static/media/chip.1637ef3b38f02622350d.webp",
+    "static/media/glogo.png": "/pixel8pro/static/media/glogo.960c670a7a8d952eba35.png",
+    "static/media/12gb.svg": "/pixel8pro/static/media/12gb.8715f0df0165bc1d4098645953ddcf4a.svg",
+    "static/media/secure.svg": "/pixel8pro/static/media/secure.c5d5e8046877edff041eb38fb0f6c8aa.svg",
+    "index.html": "/pixel8pro/index.html",
+    "static/media/securityUpdates.svg": "/pixel8pro/static/media/securityUpdates.febec28ba0334a21cd698a476e87b169.svg",
+    "main.bffb3934.css.map": "/pixel8pro/static/css/main.bffb3934.css.map",
+    "main.fb350687.js.map": "/pixel8pro/static/js/main.fb350687.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bffb3934.css",
+    "static/js/main.fb350687.js"
+  ]
+}
