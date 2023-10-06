@@ -1,0 +1,87 @@
+#secondpage{
+    gap: 25px;
+    div{
+        background-color: #cae4e2;
+        h{
+            font-size: 30px;
+            font-weight: bold;
+        }
+    }
+    img{
+        border-radius: 25px;
+    }
+
+    p{
+        color: black;
+
+    }
+    text-align: center;
+    padding: 25px;
+    background-color: #cae4e2;
+
+    h{
+        font-size: 50px;
+        font-weight: normal;
+    }
+
+    h1{
+        font-size: 40px;
+        padding: 25px 25px;
+    }
+
+    .imgContainer{
+        // padding: 25px;
+    img{
+        border-radius: 25px;
+    }
+    }
+}
+
+.cc2{
+    // position: relative;
+    // padding: auto;
+    // div{
+    //     order: 2;
+    // }
+    div{
+        background-color: #fff;
+    }
+    vertical-align: middle;
+}
+
+.cc4{
+    // img{
+    //     order: 1;
+    // }
+}
+.stmtcnt{
+    margin: 0px 0px;
+}
+
+.camerasContainer{
+    display: flex;
+    gap: 25px;
+    flex-direction: column;
+    .row{
+    gap: 25px;
+    border: 1px solid black;
+
+    border-radius: 25px;
+    padding: 25px 0px;
+    }
+}
+
+@media (max-width:900px){
+    .camerasContainer{
+        display: flex;
+        gap: 25px;
+        flex-direction: column;
+        .row{
+        gap: 25px;
+        border: 1px solid black;
+    
+        border-radius: 43px;
+        padding: 0px 18px;
+        }
+    }   
+}
