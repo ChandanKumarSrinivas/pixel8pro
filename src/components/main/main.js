@@ -7,7 +7,7 @@ export default function main() {
     <div className='firstpage'>
       <div className='cardContainer'>
         <div className='oneOne'>
-          <p>The best of Google. Even more pro</p>
+          <p>The future of photography, powered by AI.</p>
           <br></br>
           {/* <p>Google's flagship killer smartphone</p> */}
         </div>

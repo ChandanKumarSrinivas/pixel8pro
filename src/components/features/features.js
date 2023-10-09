@@ -27,26 +27,28 @@ export default function main() {
         <div>
         processor
     </div> */}
-            <div className="container featuresContainer">
+            <div className="container-fluid featuresContainer">
                 <div className="row">
                     <div className="col fc1">
                         <p>6.7" Super Actua display. Pixel's brightest ever</p>
-                        <img src={fi1} alt='fi1' />
+                        {/* <img src={fi1} alt='fi1' /> */}
                     </div>
                     <div className="col fc2">
                         <p>Polished aluminium frame and matt back glass.</p>
-                        <img src={fi2} alt='fi1' />
+                        {/* <img src={fi2} alt='fi1' /> */}
                     </div>
                 </div>
                 <div className="row">
                     <div className="col fc3">
-                        <img src={fi3} alt='fi1' />
+                        {/* <img src={fi3} alt='fi1' /> */}
                         <p>24+ hour battery charges faster than ever.</p>
                     </div>
                     <div className="col fc4">
                         <p>The power and brains behind Pixel 8 Pro.</p>
-                        <img src={fi4} alt='fi1' />
-                        <div className='stxt'><p>The new Google Tensor G3 chip is custom-designed with Google AI for cutting-edge photo and video features and smarter ways to help throughout the day. And it makes Pixel 8 Pro super fast and efficient.</p></div>
+                        {/* <img src={fi4} alt='fi1' /> */}
+                        {/* <div className='stxt'> */}
+                            <p className='stxt'>The new Google Tensor G3 chip is custom-designed with Google AI for cutting-edge photo and video features and smarter ways to help throughout the day.</p>
+                        {/* </div> */}
                     </div>
                 </div>
                 <div className='row lastrow'>

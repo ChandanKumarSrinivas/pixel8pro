@@ -17,7 +17,7 @@ export default function main() {
             <h1>50 MP main camera for even more detail.</h1>
             <p>The upgraded large main sensor with an ƒ/1.65 aperture creates the best low-light photos and videos for the most stunning close-ups.</p>
 
-            <div className="container camerasContainer">
+            <div className="container-fluid camerasContainer">
                 <div className="row">
                     <div className="col cc1">
                         <img src={ns1} alt='ns1' />

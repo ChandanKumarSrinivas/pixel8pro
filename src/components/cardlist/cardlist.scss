@@ -1,0 +1,141 @@
+// .thirdPage {
+//     display: flex;
+//     gap: 25px;
+//     flex-direction: row;
+//     width: 100%;
+//     background-color: #ffbf00;
+//     padding: 25px;
+
+//     .scrolling{
+//         display: flex;
+//         // flex-direction: row;
+//         ul{
+//             display: flex;
+//             text-decoration: none;
+//             li{
+//                 display: flex;
+//                 text-decoration: none;
+//             }
+//         }
+//         .card{
+//             width: 100px;
+//         }
+//     }
+    // max-width: 100px;
+
+    // .container-fluid {
+    //     overflow:hidden;
+    //     .rows {
+    //         min-height: 625px;
+    //         .cols {
+    //             border-radius: 25px;
+    //             // max-width: 100px;
+    //         }
+    //     }
+    // }
+// 
+// }
+
+
+.thirdPage{
+    display: flex;
+    flex-direction: column;
+    h{
+        font-size: 40px;
+        font-weight: bold;
+        text-align: center;
+        margin: 5px 25px 30px 25px;
+    }
+    padding: 25px 0px;
+    ::-webkit-scrollbar{
+        margin: 25px;
+        padding: 25px;
+        // width: 10px;
+        background-color: #000000;
+        display: none;
+        // visibility: hidden;
+    }
+    
+    ::-webkit-scrollbar-thumb{
+        background-color: blue;
+        // visibility: hidden;
+    }
+    .cardContainer{
+        display: flex;
+        font-display: row;
+        overflow-x: scroll;
+        // gap: 25px;
+        color: #231e1e;
+        
+        div{
+            min-width: 300px;
+            height: 350px;
+            margin: 0px 0px 0px 25px;
+            padding: 25px;
+            gap: 25px;
+            border-radius: 25px;
+            color: #3c4043;
+
+            background-color: #bafff6;
+
+            h2{
+                padding: 0px 0px 35px 0px;
+                font-size: 18px;
+                font-weight: 600;
+            }
+
+            h1{
+                font-weight: bold;
+                font-size: 25px;
+            }
+        }
+
+
+        .card1{
+            background-color: #e3eefc;
+        }
+
+        .card2{
+            background-image: url("../../images/card2.webp");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+
+        .card3{
+            background-color: #e4e4e4;
+        }
+
+        .card4{
+            background-image: url("../../images/card4.webp");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            background-color: #f8f9fa;
+        }
+
+        .card5{
+            background-color: #d8e4cb;
+        }
+
+        .card6{
+            background-image: url("../../images/card6.webp");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+
+        .card7{
+            background-color: #e9e1d7;
+            margin-right: 25px;
+        }
+    }
+}
+
+@media (max-width:900px) {
+    .thirdPage{
+        h{
+            font-size: 30px;
+        }
+    }
+}
